@@ -9,7 +9,7 @@ import { LoginService } from '../login.service';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private router : Router, private ls:LoginService) { }
+  constructor(private router : Router, public ls:LoginService) { }
 
   ngOnInit() {
     setTimeout(()=>{
