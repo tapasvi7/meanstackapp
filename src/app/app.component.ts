@@ -8,7 +8,7 @@ import { LoginService } from './login.service';
 })
 export class AppComponent {
   title = 'meanstackapp';
-  constructor(private ls:LoginService)
+  constructor(public ls:LoginService)
   {
 
   }
