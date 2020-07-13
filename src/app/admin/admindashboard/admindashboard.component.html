@@ -1,0 +1,20 @@
+<h1>Our developers</h1>
+
+<table class="table">
+    <tr>
+       <th>id</th>
+       <th>Email</th>
+       <th>first name</th>
+       <th>last name</th>
+       <th>Avatar</th>
+    </tr>
+    <tr *ngFor= "let obj of abc">
+        <td>{{obj.id}}</td>
+        <td>{{obj.email}}</td>
+        <td>{{obj.first_namr}}</td>
+        <td>{{obj.last_name}}</td>
+        <td><img [src]=obj.avatar ></td>
+    </tr>
+   
+
+</table>

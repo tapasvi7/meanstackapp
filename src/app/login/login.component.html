@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-3">
+
+    </div>
+    <div class="col-6">
+        <form #ref="ngForm" (ngSubmit)= "login(ref.value)" class="form-group"  >
+            <div class="form-group">
+                <label for="1">userame</label>
+                <input type="text" name="username" id="1" class="form-control" ngModel>
+            </div>
+            <div class="form-group">
+                <label for="3">password</label>
+                <input type="password" id="3" name="password" class="form-control" ngModel>
+            </div>
+            <button type="submit" class="btn btn-success text-center">Submit</button>
+        </form>
+    </div>
+    <div class="col-3">
+
+    </div>
+
+</div>
