@@ -1,0 +1,13 @@
+{
+	"name": "SQLSERVER_RETAIL_DW",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RetailDW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
